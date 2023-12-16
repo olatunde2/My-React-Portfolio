@@ -38,10 +38,11 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nihil
-            ullam ipsum dolores, necessitatibus soluta recusandae eius ipsa
-            nesciunt, suscipit delectus sapiente quam quis labore velit error
-            architecto vero! Perferendis.
+            I'm a solution-driven Fullstack Developer with a strong skill set in
+            programming languages like HTML, CSS, JavaScript, and Python,
+            complemented by a deep understanding of web development frameworks
+            such as React, Tailwind CSS, Django, React Native, MySQL and Django
+            Rest Framework .
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
