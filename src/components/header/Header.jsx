@@ -1,14 +1,14 @@
 import React from "react";
 import "./header.css";
 import CTA from "./CTA";
-import Me from "../../assets/me.jpg";
+import Me from "../../assets/me1.png";
 import HeaderSocials from "./HeaderSocials";
 
 const Header = () => {
   return (
     <header>
-      <div className="container header__container">
-        <h5>Hell I'm</h5>
+      <div className="container header__container" id="/">
+        <h5>Hello I'm</h5>
         <h1>Olatunde Okanlawon</h1>
         <h5 className="text-light">Fullstack Developer </h5>
         <CTA />
