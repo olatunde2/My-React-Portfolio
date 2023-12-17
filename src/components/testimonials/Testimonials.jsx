@@ -1,60 +1,12 @@
 import React from "react";
 import "./testimonials.css";
-import Avatar from "../../assets/me.jpg";
-
+import data from "./data";
 import { Pagination } from "swiper/modules";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-
-const data = [
-  {
-    avatar: Avatar,
-    name: "Olatunde OKanlawon",
-    review:
-      " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet iure ex ut asperiores, nemo modi saepe quos, sit dignissimos vel veritatis sed ducimus molestiae itaque fugiat officia assumenda voluptatum omnis.",
-  },
-
-  {
-    avatar: Avatar,
-    name: "Olatunde OKanlawon",
-    review:
-      " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet iure ex ut asperiores, nemo modi saepe quos, sit dignissimos vel veritatis sed ducimus molestiae itaque fugiat officia assumenda voluptatum omnis.",
-  },
-
-  {
-    avatar: Avatar,
-    name: "Olatunde OKanlawon",
-    review:
-      " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet iure ex ut asperiores, nemo modi saepe quos, sit dignissimos vel veritatis sed ducimus molestiae itaque fugiat officia assumenda voluptatum omnis.",
-  },
-
-  {
-    avatar: Avatar,
-    name: "Olatunde OKanlawon",
-    review:
-      " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet iure ex ut asperiores, nemo modi saepe quos, sit dignissimos vel veritatis sed ducimus molestiae itaque fugiat officia assumenda voluptatum omnis.",
-  },
-
-  {
-    avatar: Avatar,
-    name: "Olatunde OKanlawon",
-    review:
-      " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet iure ex ut asperiores, nemo modi saepe quos, sit dignissimos vel veritatis sed ducimus molestiae itaque fugiat officia assumenda voluptatum omnis.",
-  },
-
-  {
-    avatar: Avatar,
-    name: "Olatunde OKanlawon",
-    review:
-      " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet iure ex ut asperiores, nemo modi saepe quos, sit dignissimos vel veritatis sed ducimus molestiae itaque fugiat officia assumenda voluptatum omnis.",
-  },
-];
-
-// ...
 
 const Testimonials = () => {
   return (

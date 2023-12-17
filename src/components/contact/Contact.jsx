@@ -9,7 +9,6 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    e.target.reset();
     emailjs
       .sendForm(
         "service_xclptfq",
@@ -25,6 +24,7 @@ const Contact = () => {
           console.log(error.text);
         }
       );
+    e.target.reset();
   };
 
   return (
