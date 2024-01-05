@@ -55,7 +55,7 @@ const Experience = () => {
               <GrReactjs className="experience__details-icon" />
               <div>
                 <h4>React</h4>
-                <small className="text-light">Experience</small>
+                <small className="text-light">intermediate</small>
               </div>
             </article>
 
@@ -86,7 +86,7 @@ const Experience = () => {
               <SiMysql className="experience__details-icon" />
               <div>
                 <h4>MySQL</h4>
-                <small className="text-light">intermediate</small>
+                <small className="text-light">Experience</small>
               </div>
             </article>
 
