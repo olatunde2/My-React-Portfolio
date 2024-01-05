@@ -41,8 +41,8 @@ const About = () => {
             I'm a solution-driven Fullstack Developer with a strong skill set in
             programming languages like HTML, CSS, JavaScript, and Python,
             complemented by a deep understanding of web development frameworks
-            such as React, Tailwind CSS, Django, React Native, MySQL and Django
-            Rest Framework .
+            such as React, Tailwind CSS, Django, React Native, MySQL,
+            Docker,PostgreSQL and Django Rest Framework .
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

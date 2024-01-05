@@ -6,8 +6,8 @@ import { TbBrandJavascript } from "react-icons/tb";
 import { BiLogoTailwindCss } from "react-icons/bi";
 import { GrReactjs } from "react-icons/gr";
 import { TbBrandReactNative } from "react-icons/tb";
-import { TbBrandDjango } from "react-icons/tb";
-import { SiMysql } from "react-icons/si";
+import { TbBrandDjango, TbAccessPoint } from "react-icons/tb";
+import { SiMysql, SiAbbott } from "react-icons/si";
 import { IoLogoPython } from "react-icons/io";
 
 const Experience = () => {
@@ -87,6 +87,22 @@ const Experience = () => {
               <div>
                 <h4>MySQL</h4>
                 <small className="text-light">intermediate</small>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <SiAbbott className="experience__details-icon" />
+              <div>
+                <h4>PostgreSQL</h4>
+                <small className="text-light">Experience</small>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <TbAccessPoint className="experience__details-icon" />
+              <div>
+                <h4>Docker</h4>
+                <small className="text-light">Experience</small>
               </div>
             </article>
 
